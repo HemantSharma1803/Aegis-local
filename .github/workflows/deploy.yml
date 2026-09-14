@@ -30,9 +30,6 @@ jobs:
       - name: Install Dependencies
         run: bun install --no-progress
 
-      - name: Configure GitHub Pages
-        uses: actions/configure-pages@v6
-
       - name: Build Client
         run: bun run build:client
 
@@ -43,7 +40,7 @@ jobs:
           echo "GitHub Pages build verified successfully."
 
       - name: Upload Build Artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v5
         with:
           path: dist
 
