@@ -1,0 +1,6 @@
+{
+  "name": "Aegis Local",
+  "description": "Private On-Device AI Presentation Coach — Competition-grade presentation readiness workspace",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
