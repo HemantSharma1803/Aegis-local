@@ -103,3 +103,7 @@ npm run dev
 # 3. Build for production distribution
 npm run build
 ```
+
+## GitHub Pages Deployment
+
+This project includes a GitHub Actions workflow for GitHub Pages. In the repository settings, open **Settings → Pages → Build and deployment → Source** and select **GitHub Actions** once before the first deployment.
